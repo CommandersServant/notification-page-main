@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="public/style.css">
+  <script src="public/main.js" defer></script>
 
   <title>Frontend Mentor | Notifications page</title>
 
@@ -13,63 +15,66 @@
 
 
 <body>
-  <div>
-    <h1>Notifications</h1>
-    <h2 id="new-notifications"></h2>
-    <p id="mark">Mark all as read</p>
+  <div id="notification-center">
+    <div id="heading">
+      <h1>Notifications</h1>
+      <h2 id="new-notification-count">3</h2>
+      <p id="mark">Mark all as read</p>
+    </div>
+
     <div class="notification">
-      <img src="/public/assets/images/avatar-mark-webber.webp" alt="mark-webber-image">
+      <img class="profile-photo" src="/public/assets/images/avatar-mark-webber.webp" alt="mark-webber-image">
       <p><span class="name">Mark Webber</span> <span class="action">reacted to your recent post</span> <span
           class="info">My first tournament today!</span>
-        <span class="post-time">1m ago</span>
+        <br><span class="post-time">1m ago</span>
       </p>
     </div>
 
     <div class="notification">
-      <img src="/public/assets/images/avatar-angela-gray.webp" alt="angela-gray-image">
+      <img class="profile-photo" src="/public/assets/images/avatar-angela-gray.webp" alt="angela-gray-image">
       <p><span class="name">Angela Gray</span> <span class="action">followed you</span>
-        <span class="post-time">5m ago</span>
+        <br><span class="post-time">5m ago</span>
       </p>
     </div>
 
     <div class="notification">
-      <img src="/public/assets/images/avatar-jacob-thompson.webp" alt="jacob-thompson-image">
+      <img class="profile-photo" src="/public/assets/images/avatar-jacob-thompson.webp" alt="jacob-thompson-image">
       <p><span class="name">Jacob Thompson</span> <span class="action">has joined your group</span> <span
           class="info">Chess Club</span>
-        <span class="post-time">1 day ago</span>
+        <br><span class="post-time">1 day ago</span>
       </p>
     </div>
 
     <div class="notification">
-      <img src="/public/assets/images/avatar-rizky-hasanuddin.webp" alt="rizky-hasanuddin-image">
+      <img class="profile-photo" src="/public/assets/images/avatar-rizky-hasanuddin.webp" alt="rizky-hasanuddin-image">
       <p><span class="name">Rizky Hasanuddin</span> <span class="action">sent you a private message</span> <span
           class="info">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
           I'm already having lots of fun and improving my game.</span>
-        <span class="post-time">5 days ago</span>
+        <br><span class="post-time">5 days ago</span>
       </p>
     </div>
 
     <div class="notification">
-      <img src="/public/assets/images/avatar-kimberly-smith.webp" alt="kimberly-smith-image">
+      <img class="profile-photo" src="/public/assets/images/avatar-kimberly-smith.webp" alt="kimberly-smith-image">
       <p><span class="name">Kimberly Smith</span> <span class="action">commented on your picture</span> <span
-          class="info"><img src="/public/assets/images/image-chess.webp" alt="chess-image"></span>
-        <span class="post-time">1 week ago</span>
+          class="info"><img class="post-picture" src="/public/assets/images/image-chess.webp" alt="chess-image"></span>
+        <br><span class="post-time">1 week ago</span>
       </p>
     </div>
 
     <div class="notification">
-      <img src="/public/assets/images/avatar-nathan-peterson.webp" alt="nathan-peterson-image">
+      <img class="profile-photo" src="/public/assets/images/avatar-nathan-peterson.webp" alt="nathan-peterson-image">
       <p><span class="name">Nathan Peterson</span> <span class="action">reacted to your recent post</span> <span
           class="info">5 end-game strategies to increase your win rate</span>
-        <span class="post-time">2 weeks ago</span>
+        <br><span class="post-time">2 weeks ago</span>
       </p>
     </div>
 
     <div class="notification">
-      <img src="/public/assets/images/avatar-anna-kim.webp" alt="anna-kim-image">
+      <img class="profile-photo" src="/public/assets/images/avatar-anna-kim.webp" alt="anna-kim-image">
       <p><span class="name">Anna Kim</span> <span class="action">left the group</span> <span class="info">Chess
           Club</span>
-        <span class="post-time">2 weeks ago</span>
+        <br><span class="post-time">2 weeks ago</span>
       </p>
     </div>
   </div>

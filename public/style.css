@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("assets/fonts/PlusJakartaSans-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 1000;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(210, 60%, 98%);
+  font-family: "PlusJakartaSans";
+}
+
+#notification-center {
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 60px;
+  width: 650px;
+  padding: 30px;
+  padding-top: 15px;
+}
+
+#heading {
+  display: grid;
+  /* align-items: center; */
+  grid-template-columns: 25% 57.5% 35%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 23px;
+  font-weight: 900;
+  color: hsl(224, 21%, 14%);
+  width: 150px;
+}
+
+#new-notification-count {
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    width: 20px;
+    height: 23px;
+    padding-left: 10px;
+    margin-top: 19px;
+}
+
+#mark {
+    color: hsl(219, 12%, 42%);
+    font-weight: 500;
+    width: 118px;
+    padding-top: 3px;
+}
+
+.notification {
+    background-color: hsl(210, 60%, 98%);
+    display: grid;
+    grid-template-columns: 10% 90%;
+
+}
+
+.profile-photo {
+    width: 50px;
+}

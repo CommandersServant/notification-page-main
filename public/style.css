@@ -18,6 +18,7 @@ body {
   background-color: white;
   border-radius: 15px;
   margin-top: 60px;
+  margin-bottom: 60px;
   width: 650px;
   padding: 30px;
   padding-top: 15px;
@@ -38,31 +39,112 @@ h1 {
 }
 
 #new-notification-count {
-    background-color: hsl(219, 85%, 26%);
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-    align-items: center;
-    width: 20px;
-    height: 23px;
-    padding-left: 10px;
-    margin-top: 19px;
+  background-color: hsl(219, 85%, 26%);
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  align-items: center;
+  width: 20px;
+  height: 23px;
+  padding-left: 10px;
+  margin-top: 19px;
 }
 
 #mark {
-    color: hsl(219, 12%, 42%);
-    font-weight: 500;
-    width: 118px;
-    padding-top: 3px;
+  color: hsl(219, 12%, 42%);
+  font-weight: 500;
+  width: 118px;
+  padding-top: 3px;
+}
+
+#mark:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
 }
 
 .notification {
-    background-color: hsl(210, 60%, 98%);
-    display: grid;
-    grid-template-columns: 10% 90%;
-
+  border-radius: 8px;
+  color: hsl(219, 12%, 42%);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 
+.unread {
+  background-color: hsl(210, 60%, 98%);
+}
+
+.content {
+  line-height: 25px;
+}
+
+
 .profile-photo {
-    width: 50px;
+  width: 50px;
+}
+
+.name {
+  color: hsl(224, 21%, 14%);
+  font-weight: 900;
+  margin-right: 4px;
+}
+
+.name:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+
+.action {
+  font-weight: 500;
+  margin-right: 4px;
+}
+
+.info {
+  font-weight: 800;
+}
+
+.info:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+
+.group {
+  color: hsl(219, 85%, 26%);
+}
+
+.post-time {
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.message {
+  border: 1px solid;
+  border-color: hsl(211, 68%, 94%);
+  border-radius: 5px;
+  padding: 16px;
+  font-weight: 500;
+}
+
+.message:hover {
+  background-color: hsl(205, 33%, 90%);
+  color: hsl(219, 12%, 42%);
+}
+
+.photo-notification {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.post-picture {
+  width: 50px;
+}
+
+.post-picture:hover {
+  border: 2px solid;
+  border-color: hsl(219, 12%, 42%);
+  border-radius: 10px;
+  cursor: pointer;
 }

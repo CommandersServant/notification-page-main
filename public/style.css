@@ -111,6 +111,10 @@ h1 {
   cursor: pointer;
 }
 
+.unread-mark {
+  display: inline-block;
+}
+
 .group {
   color: hsl(219, 85%, 26%);
 }
